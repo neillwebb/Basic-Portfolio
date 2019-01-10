@@ -1,0 +1,57 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("../images/white-waves.png")
+}
+
+#name {
+    background-color: #4aaaa5;
+    font-size: 36px;
+    padding-left: 300px;
+}
+
+nav {
+    text-align: right;
+    padding-right: 300px;
+    background: #ffffff
+}
+
+.links {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1{
+    color: #4aaaa5;
+    border-bottom: 25px;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
+    box-sizing: border-box;
+    position: relative;
+    color: #777777;
+}
+
+.Birthday {
+    width: 200px;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;background-color: #666666;
+    position: absolute;
+    bottom: 0px;
+    border-top: 25px;
+    border-top-color: #4aaaa5;
+}
+
