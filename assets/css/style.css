@@ -51,7 +51,11 @@ footer {
     margin-right: 0px;background-color: #666666;
     position: absolute;
     bottom: 0px;
-    border-top: 25px;
-    border-top-color: #4aaaa5;
+    border-top: 8px solid#4aaaa5;
+    width: 100%;    
 }
 
+#port1,
+#port2 {
+    float: left;
+}
