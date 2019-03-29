@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="reset" href="assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="reset" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="links">
-            <a id="name">Neill Webb</a>
-
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                    </nav>
-        </div>
-
-        <hr>
-        
+      <nav class="header-container">
+        <a class="header-myname">Neill Webb</a>
+        <ul>
+          <li>
+            <a href="index.html">About</a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="container">
-        <h1>Contact</h1>
+    <main class="main-box" class="clearfix">
+      <h1 class="h1-text">Contact</h1>
+      <div class="contact-container">
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" />
+          </div>
+          <div class="form-group">
+            <label for="msg">Message:</label>
+            <input type="message" class="form-control" id="pwd" />
+          </div>
+          <button type="submit" class="btn btn-default">Contact Me</button>
+        </form>
+      </div>
+    </main>
 
-        <hr>
-
-        <form>
-            Name:<br>
-            <input type="text" name="Name"><br>
-
-            Email:<br>
-            <input type="text" name="Email"><br>
-
-            Message:<br>
-            <input type="text" name="Message"><br>
-          </form>
-          
-    
+    <!-- <footer>
+      <div class="footer-container">
+        <p>Copyright Neill P. Webb</p>
+      </div>
+    </footer> -->
+    <div class="card-footer mt-4 bg-light">
+      <p class="lead">
+        Copyright Neill P. Webb
+      </p>
     </div>
-
-    <footer>
-        <p>Copyright Neill Patrick Webb 2019</p>
-    </footer>
+  </body>
+</html>

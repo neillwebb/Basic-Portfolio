@@ -1,55 +1,83 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="reset" href="assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="reset" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="links">
-            <a id="name">Neill Webb</a>
-
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                    </nav>
-        </div>
-
-        <hr>
-        
+      <nav class="header-container">
+        <a class="header-myname">Neill Webb</a>
+        <ul>
+          <li>
+            <a href="index.html">About</a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="container">
-        <h1>About Me</h1>
+    <main class="main-box" class="clearfix">
+      <h1 class="h1-text">About Me</h1>
+      <div class="bio-container">
+        <img
+          class="index-image"
+          src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/20992614_10155671959114771_735930356638165655_n.jpg?_nc_cat=107&_nc_ht=scontent-ort2-2.xx&oh=d08e3640494938a586bf3278b48c1765&oe=5CC35E86"
+          alt="Tequila Shots Photo"
+        />
+        <div class="bio-copy">
+          <p>
+            Greetings! My name is Neill Webb. Im an aspiring web developer.
+            While I am still a novice, I have a bright future ahead of me. I've
+            never given up on myself and I think that is as important an
+            attribute that a person can have. I was raised in the suburbs of
+            Atlanta and came to the city of Atlanta when I was 18. I spent
+            almost 3 years studying at Emory University. I studied philosophy
+            and political science and loved it.
+          </p>
+          <p>
+            I was a bartender and was dedicated to being as good at that
+            particular job that I possibly could be. I got a job at The Porter
+            Beer Bar in Little 5 Points. The Porter is a craft beer bar/gastro
+            pub that features a beer list of nearly 900 beers in a bottle and a
+            draft beer list that changes daily. I was hired as a server and
+            within 3 months was a manager. Within my first year, I was promoted
+            to General Manager. I always want to continue to look ahead. I've
+            worked 75 hours a week in my position for 9 months in order to
+            afford to be in the position to financially afford to make this next
+            step in my life. I stepped down from my position and only bartend 1
+            night a week(just for supplementary income) at this point. I'm a
+            little overwhelmed but mostly excited about the opportunity to be
+            here. Hopefully I can buy you all a beer once I successfully
+            complete this program! Or-if you reference my poorly chosen picture
+            with my girlfriend-a shot of tequila!
+          </p>
+        </div>
+      </div>
+    </main>
 
-        <hr>
-          
-        <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/20992614_10155671959114771_735930356638165655_n.jpg?_nc_cat=107&_nc_ht=scontent-ort2-2.xx&oh=d08e3640494938a586bf3278b48c1765&oe=5CC35E86" class="Birthday" alt="Neill">
-        
-        <p class="copy1">   Greetings! My name is Neill Webb. Im an aspiring web developer. While I am still a novice, I have a bright future ahead of me. I've never given up on myself and I think that is as important an attribute that a person can have. I was raised in the suburbs of Atlanta and came to the city of Atlanta when I was 18. I spent almost 3 years studying at Emory University. I studied philosophy and political science and loved it. Then, life happened. I experienced massive personal loss and was challenged in a way that I had never experienced before. Remember the part about never haven given up? That was a lie. I gave up. I quit school. I checked out on life. You don't need to know the details. This is obviously not going to be the text that I include in my portfolio but Im currently in a mood of self-pity considering how miserably I'm doing at executing this first homework assignment. I'm not going to give up. I'm going to put in a ton of work and get better at this.  
-                        </p>
-        <p>     The second paragraph is for positivity. I picked myself up after about 7 years of rock-bottom and decided that I was going to make the best of my life as it was. I was a bartender and was dedicated to being as good at that particular job that I possibly could be. I got a job at The Porter Beer Bar in Little 5 Points. The Porter is a craft beer bar/gastro pub that features a beer list of nearly 900 beers in a bottle and a draft beer list that changes daily. I was hired as a server and within 3 months was a manager. Within my first year, I was promoted to General Manager. I always want to continue to look ahead. I've worked 75 hours a week in my position for 9 months in order to afford to be in the position to financially afford to make this next step in my life. I stepped down from my position and only bartend 1 night a week(just for supplementary income) at this point. I'm a little overwhelmed but mostly excited about the opportunity to be here. Hopefully I can buy you all a beer once I successfully complete this program! Or-if you reference my poorly chosen picture with my girlfriend-a shot of tequila!   
-                        </p>
+    <!-- <footer>
+        <div class="footer-container">
+            <p>Copyright Neill P. Webb</p>
+        </div>
+    </footer> -->
+
+    <div class="card-footer mt-4 bg-light">
+      <p class="lead">
+        Copyright Neill P. Webb
+      </p>
     </div>
-
-    <footer>
-        <p>Copyright Neill Patrick Webb 2019</p>
-    </footer>
-           
-    
-   
-        
-        
-          
-    
-        
-</body>
+  </body>
+</html>

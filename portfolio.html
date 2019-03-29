@@ -2,50 +2,131 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="reset" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="reset" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
     <header>
-        <div class="links">
-            <a id="name">Neill Webb</a>
-
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
+        <nav class="header-container">
+            <a class="header-myname">Neill Webb</a>
+            <ul class=>
+                <li>
+                    <a href="index.html">About</a> |
+                    <a href="portfolio.html">Portfolio</a> |
                     <a href="contact.html">Contact</a>
-                    </nav>
-        </div>
+                </li>
+            </ul>
+        </nav>
 
-        <hr>
-        
     </header>
 
     <div class="container">
-        <h1>Portfolio</h1>
+        <h1 class="h1">Portfolio</h1>
+            <!-- <div class="row">
+                <div class="col-md-4 p-2">
+                  <div class="thumbnail">
+                    <a href="https://neillwebb.github.io/Stock-Search-Application/">
+                      <img src="http://www.online-stock-trading-guide.com/image-files/line-chart-small.png" alt="Employees" style="width:100%">
+                      <div class="caption">
+                        <p>Stock Stock-Search-Application</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 p-2">
+                  <div class="thumbnail">
+                    <a href="http://lorempixel.com/400/200/">
+                      <img src="https://static.blockspring.com/media/300.png" alt="Stocks" style="width:100%">
+                      <div class="caption">
+                        <p>Single Page Application - Employees List</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 p-2">
+                  <div class="thumbnail">
+                    <a href="http://lorempixel.com/400/200/">
+                      <img src="https://static01.nyt.com/images/2018/09/03/business/03AMAZONADS.illo/merlin_143075382_80b4a6c8-91f8-4a35-9d67-c3fa595b3154-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Bamazon" style="width:100%">
+                      <div class="caption">
+                        <p>Bamazon</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+              <div class="row">
+                <div class="col-md-4 p-2"><div class="card" style="width: 18rem;">
+                  <img src="http://www.online-stock-trading-guide.com/image-files/line-chart-small.png" class="card-img-top imageSize" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Stock Stock-Search-Application</h5>
+                    <p class="card-text">An application that allows you to retrieve stock information and news.</p>
+                    <a href="https://neillwebb.github.io/Stock-Search-Application/" class="btn btn-primary">Launch Application!</a>
+                  </div>
+                </div></div>
+                <div class="col-md-4 p-2"><div class="card" style="width: 18rem;">
+                  <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/UploadFile/rahul4_saxena/single-page-application-spa-using-angularjs-web-api-and-m/Images/traditional%20web%20applications.jpg" class="card-img-top imageSize" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Single Page Application - Employees List</h5>
+                    <p class="card-text">An application that allows navigation between employee pages without refreshing.</p>
+                    <a href="https://neillwebb.github.io/Single-Page-Application/" class="btn btn-primary">Launch Application!</a>
+                  </div>
+                </div></div>
+                <div class="col-md-4 p-2"><div class="card" style="width: 18rem;">
+                  <img src="https://evening-island-81476.herokuapp.com/" class="card-img-top imageSize" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bamazon the Shopping Cart App</h5>
+                    <p class="card-text">An application that simulates a shopping website that allows the user to add things to a cart.</p>
+                    <a href="#" class="btn btn-primary">Launch Application!</a>
+                  </div>
+                </div></div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 p-2"><div class="card" style="width: 18rem;">
+                  <img src="https://cdn4.iconfinder.com/data/icons/business-icons-18/64/Business_Icons-52-512.png" class="card-img-top imageSize" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Employee Finder Application</h5>
+                    <p class="card-text">An application for employers to find an employee that best matches their survey responses. <form action=""></form>.</p>
+                    <a href="https://safe-taiga-82170.herokuapp.com/" class="btn btn-primary">Launch Application!</a>
+                  </div>
+                </div></div>
+                <div class="col-md-4 p-2"><div class="card" style="width: 18rem;">
+                  <img src="https://image.spreadshirtmedia.com/image-server/v1/compositions/1011230423/views/1,width=650,height=650,appearanceId=2,version=1543821757/cmyk-stand-up-arcade-game-flash-back-to-the-80s-and-archades-with-this-retro-designer-graphic-from-chattanooga-tee-the-colorful-stand-up-arcade-machine-make-a-gnarly-pattern-for-larger-graphic-and-all-over-prints.jpg" class="card-img-top imageSize" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Super Trivia Bros. Arcade</h5>
+                    <p class="card-text">An application that allows a user to practice trivia in an old school arcade environment.</p>
+                    <a href="https://super-trivia-bros.herokuapp.com/" class="btn btn-primary">Launch Application!</a>
+                  </div>
+                </div></div>
+                <div class="col-md-4 p-2"><div class="card" style="width: 18rem;">
+                  <img src="https://d2b8crmh47yoxi.cloudfront.net/wp-content/uploads/2014/09/blog-thesaurus.jpg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smartify</h5>
+                    <p class="card-text">An application using a thesaurus api and natural language processor to provide alternative vocabulary.</p>
+                    <a href="https://acfoard.github.io/smartify/" class="btn btn-primary">Launch Application!</a>
+                  </div>
+                </div></div>
+              </div>
 
-        <hr>
-        <div>
-            <img src="http://lorempixel.com/400/200/" alt="pic1">
-            <p>picture 1</p>
-        <img src="http://lorempixel.com/g/400/200/" alt="pic2">
-            <p>picture 2</p>
-        <img src="http://lorempixel.com/400/200/sports/" alt="pic3">
-            <p>picture 3</p>
-        <img src="http://lorempixel.com/400/200/sports/1/" alt="pic4">
-            <p>picture 4</p>
-        </div>    
-        
-          
-        
+
     </div>
 
-    <footer>
-        <p>Copyright Neill Patrick Webb 2019</p>
-    </footer>
+    <!-- <footer>
+        <div class="footer-container">
+            <p>Copyright Neill P. Webb</p>
+        </div>
+    </footer> -->
+
+    <div class="card-footer mt-4 bg-light">
+      <p class="lead">Copyright Neill P. Webb</p>
+    </div>
+
+</body>
+
+</html>

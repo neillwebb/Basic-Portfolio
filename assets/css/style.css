@@ -4,58 +4,119 @@ html {
 }
 
 body {
-    background-image: url("../images/white-waves.png")
+    background-image: url("../images/white-waves.png");
+};
+
+.header-container {
+    width: 75%;
+    margin: 0 auto;
+
 }
 
-#name {
-    background-color: #4aaaa5;
-    font-size: 36px;
-    padding-left: 300px;
+header {
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom: 8px solid #cccccc;
 }
 
 nav {
-    text-align: right;
-    padding-right: 300px;
-    background: #ffffff
-}
-
-.links {
-    background-color: white;
-    margin: 0 auto;
+    height: 100%;
     width: 100%;
-}
-
-h1{
-    color: #4aaaa5;
-    border-bottom: 25px;
-}
-
-.container {
-    background-color: #ffffff;
     margin: 0 auto;
-    width: 960px;
-    box-sizing: border-box;
-    position: relative;
+}
+
+nav > ul {
+    float: right;
+    height: 100%;
+}
+
+nav > ul > li {
+    padding: 0 15px;
+    display: inline;
+}
+
+nav > ul > li { 
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     color: #777777;
 }
 
-.Birthday {
-    width: 200px;
+.header-myname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 80px;
+    height: 100%;
+    font-size: 30px;
     float: left;
+    padding: 0 30px 0 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+};
+
+.content-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding-bottom: 25px;
+    border-bottom: 8px solid #4aaaa5;
+}
+
+.bio-container {
+    margin-top: 25px;
+}
+
+.index-image {
+    float: left;
+    width: 20%;
+}
+
+.bio-copy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: right;
+    width: 75%;
+    padding: 25px;
+    color: #777777
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 footer {
     text-align: center;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 0px;background-color: #666666;
+    margin-right: 0px;
+    background-color: #666666;
     position: absolute;
     bottom: 0px;
     border-top: 8px solid#4aaaa5;
     width: 100%;    
 }
 
-#port1,
-#port2 {
-    float: left;
+.imageSize {
+    width: 260px;
+    height: 220px;
 }
