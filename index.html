@@ -16,21 +16,38 @@
   </head>
 
   <body>
-    <header>
-      <nav class="header-container">
-        <a class="header-myname">Neill Webb</a>
-        <ul>
-          <li>
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">Neill Patrick Webb</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
           </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
-    <main class="main-box" class="clearfix">
-      <h1 class="h1-text">About Me</h1>
+    <div class="jumbotron">
+        <h1>About Me</h1> 
+        <p>All about my fantastic life!</p> 
+      </div>
+      
       <div class="bio-container">
         <img
           class="index-image"
@@ -68,16 +85,12 @@
       </div>
     </main>
 
-    <!-- <footer>
-        <div class="footer-container">
-            <p>Copyright Neill P. Webb</p>
-        </div>
-    </footer> -->
-
-    <div class="card-footer mt-4 bg-light">
-      <p class="lead">
-        Copyright Neill P. Webb
-      </p>
-    </div>
+    <div class="footer-margin">
+        <footer
+          class="card-footer bg-dark footer-font-style text-muted footer-position"
+        >
+          <a href="https://github.com/neillwebb">Neill P. Webb</a>
+        </footer>
+      </div>
   </body>
 </html>
